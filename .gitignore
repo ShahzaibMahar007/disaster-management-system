@@ -1,0 +1,5 @@
+# Editor folders
+.vscode/
+
+# Compiled class files
+*.class
