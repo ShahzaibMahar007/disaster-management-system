@@ -35,3 +35,17 @@ select * from allocation_summary;
 
 
 select * from users;
+
+-- 1. Create the table
+CREATE TABLE inventory (
+    item_name VARCHAR(50) PRIMARY KEY,
+    quantity INT NOT NULL
+);
+
+-- 2. Insert the starting stock (matching your UI screenshot)
+INSERT INTO inventory (item_name, quantity) VALUES 
+('Food Pack', 200),
+('Water Bottle', 150),
+('Medical Kit', 100);
+
+select * from inventory;
