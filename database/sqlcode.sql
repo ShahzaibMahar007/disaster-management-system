@@ -1,3 +1,4 @@
+
 create database disasterrelief;
 use disasterrelief;
 CREATE TABLE users (

@@ -12,9 +12,10 @@ public class DBConnection {
 
             // Connect to your database
             return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/disasterrelief", //   DB name
+                "jdbc:mysql://127.0.0.1:3306/disasterrelief", //   DB name
                 "root",                                       //   MySQL username
-                "dbms123"                               //  MySQL password
+                "dbms123" 
+                                              //  MySQL password
             );
         } catch (Exception e) {
             e.printStackTrace();
