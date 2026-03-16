@@ -277,7 +277,7 @@ Potential improvements for future versions:
 ## Contributors
 
 See the full list of contributors on GitHub:
-https://github.com/ShahzaibMahar007/graphs/contributors
+https://github.com/ShahzaibMahar007/disaster-management-system/graphs/contributors
 
 ---
 
